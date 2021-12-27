@@ -1,9 +1,19 @@
 const activeCards = [];
 const selectedCards = [];
 
-if (activeCards.length === 16) {
-  confirm('победа! Еще раз?') && renderCards();
-}
+// function finish() {
+//   const listItems = document.querySelectorAll('.card-item');
+//   const arrItems = [];
+//   isFinish = arrItems.every(el => el.classList.contains('disabled'));
+//   listItems.forEach(el => {
+//     arrItems.push(el);
+//   })
+
+//   if (isFinish) {
+//     const request = confirm('победа! Еще раз?');
+//     if (request) renderCards();
+//   }
+// }
 
 function cardClick(target, id) {
   if (!target.classList.contains('disabled')) {
@@ -24,6 +34,7 @@ function cardClick(target, id) {
       checkActiveCards(id, target)
     }
   }
+  // finish();
 }
 
 function checkActiveCards(id, target) {
@@ -75,7 +86,7 @@ async function renderCards() {
 
   const sortedCards = cards.sort(sortArr)
     .sort(sortArr);
-  const currentCards = sortedCards.slice(0, 8).concat(sortedCards.slice(0, 8))
+  const currentCards = sortedCards.slice(0, 10).concat(sortedCards.slice(0, 10))
     .sort(sortArr)
     .sort(sortArr)
 

@@ -15,7 +15,7 @@ body {
 }
 
 .cards-list {
-  max-width      : 500px;
+  max-width      : 600px;
   list-style     : none;
   display        : flex;
   flex-wrap      : wrap;
