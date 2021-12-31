@@ -3,51 +3,51 @@ const selectedCards = [];
 const cards = [
   {
     "id": 1,
-    "url": "/img/canada-ontario-niagara.png"
+    "url": "../img/canada-ontario-niagara.png"
   },
   {
     "id": 2,
-    "url": "/img/china-great-wall-and-mountain 1.png"
+    "url": "../img/china-great-wall-and-mountain 1.png"
   },
   {
     "id": 3,
-    "url": "/img/Discover-sajek-valley 1.png"
+    "url": "../img/Discover-sajek-valley 1.png"
   },
   {
     "id": 4,
-    "url": "/img/Discover-sajek-valley 2.png"
+    "url": "../img/Discover-sajek-valley 2.png"
   },
   {
     "id": 5,
-    "url": "/img/Discover-sajek-valley 3.png"
+    "url": "../img/Discover-sajek-valley 3.png"
   },
   {
     "id": 6,
-    "url": "/img/hiroshima-japan.png"
+    "url": "../img/hiroshima-japan.png"
   },
   {
     "id": 7,
-    "url": "/img/india-top-attractions-varanasi.png"
+    "url": "../img/india-top-attractions-varanasi.png"
   },
   {
     "id": 8,
-    "url": "/img/Isrambul.png"
+    "url": "../img/Isrambul.png"
   },
   {
     "id": 9,
-    "url": "/img/Kuala-Lumpur.png"
+    "url": "../img/Kuala-Lumpur.png"
   },
   {
     "id": 10,
-    "url": "/img/Naltar-lake-pakistan.png"
+    "url": "../img/Naltar-lake-pakistan.png"
   },
   {
     "id": 11,
-    "url": "/img/Seoul.png"
+    "url": "../img/Seoul.png"
   },
   {
     "id": 12,
-    "url": "/img/usa-best-places-new-york 1.png"
+    "url": "../img/usa-best-places-new-york 1.png"
   }
 ];
 
